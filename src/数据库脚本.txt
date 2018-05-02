@@ -1,0 +1,29 @@
+CREATE TABLE news (
+	id			int			primary key auto_increment ,
+	title		varchar(500)	not null,
+	url			varchar(500)	not null
+);
+
+INSERT INTO news (title,url) VALUES
+('"失控"奔驰封存待检 车主:行车记录仪内容被覆盖','http://news.163.com/18/0322/23/DDHPT8DE0001875P.html'),
+('袁煜明：区块链行业正处于“佛系”的反面','http://tech.163.com/18/0323/03/DDI6624V000998GP.html'),
+('戎归万里 ─── 我校举行2017年退役学生欢迎会','http://www.zwu.edu.cn/99/89/c18a104841/page.htm'),
+('省纪委、省监委派驻省教育厅纪检监察组郭丽华组长一行来我校考察调研','http://www.zwu.edu.cn/99/17/c18a104727/page.psp'),
+('关于2018年寒假有关事项的通知','http://www.zwu.edu.cn/97/42/c21a104258/page.psp'),
+('',''),
+('',''),
+('',''),
+('',''),
+('',''),
+('',''),
+('',''),
+('',''),
+('',''),
+('',''),
+('',''),
+('',''),
+('',''),
+('',''),
+('',''),
+('',''),
+('','');
